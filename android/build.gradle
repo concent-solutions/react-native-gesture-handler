@@ -201,7 +201,7 @@ dependencies {
     if (isNewArchitectureEnabled()) {
         implementation project(':ReactAndroid')
     } else {
-        implementation 'com.facebook.react:react-native:+'
+        implementation 'com.facebook.react:react-native:0.68.3!!'
     }
 
     if (shouldUseCommonInterfaceFromReanimated()) {
